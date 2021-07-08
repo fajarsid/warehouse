@@ -23,120 +23,8 @@ body {
   overflow: hidden;
   user-select: none;
 }
-
-.navigation {
-  position: relative;
-  width: 65px;
-  height: 100vh;
-  background-color: var(--background-color);
-  box-shadow: 15px 0 0 var(--primary-color);
-  overflow: hidden;
-  transition: width 0.3s ease-in-out;
-  border-radius: 0.2rem;
-}
-
-.navigation:hover {
-  width: 250px;
-}
-
-.navigation ul {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  padding: 2.5rem 0.5rem;
-  width: 100%;
-}
-
-.navigation ul li {
-  list-style: none;
-  width: 100%;
-  padding: 0.1rem;
-  border-top-left-radius: 15px;
-  border-bottom-left-radius: 15px;
-  z-index: 100;
-}
-.navigation ul li.active {
-  background-color: var(--primary-color);
-}
-
-.navigation ul li.active a::before {
-  content: "";
-  position: absolute;
-  background-color: var(--background-color);
-  width: 15px;
-  height: 15px;
-  right: 9.5px;
-  top: -16.5px;
-  border-radius: 50%;
-  box-shadow: 6px 6px 0 var(--primary-color);
-}
-
-.navigation ul li.active a::after {
-  content: "";
-  position: absolute;
-  background-color: var(--background-color);
-  width: 15px;
-  height: 15px;
-  right: 9.5px;
-  bottom: -16.5px;
-  border-radius: 50%;
-  box-shadow: 6px -6px 0 var(--primary-color);
-}
-
-.navigation ul li a {
-  position: relative;
-  display: flex;
-  width: 100%;
-  color: var(--text-color);
-  text-decoration: none;
-  align-items: center;
-}
-
-.navigation ul li a .icon {
-  position: relative;
-  min-width: 50px;
-  height: 50px;
-  line-height: 60px;
-  text-align: center;
-  margin-right: 20px;
-}
-
-.navigation ul li a .icon ion-icon {
-  position: relative;
-  font-size: 1.25rem;
-  z-index: 10;
-}
-
-/* .check {
-  position: absolute;
-  display: flex;
-  top: 50px;
-  right: -10px;
-  align-items: left;
-
-  color: var(--text-color);
-  flex-direction: row;
-}
-.check label {
-  margin: 10px;
-}
-.check .checkbox {
-  display: flex;
-  width: 1.1rem;
-  height: 1.1rem;
-  background-color: green;
-  color: green;
-  justify-content: center;
-  align-items: center;
-  border-radius: 10rem;
-  cursor: pointer;
-} */
-
-.light {
-  --primary-color: #4187f6 !important;
-  --background-color: rgb(226, 226, 226) !important;
-  --body-color: #fff !important;
-  --text-color: #111;
+i {
+  margin-right: 10px;
 }
 
 /*  Tabel*/
@@ -300,3 +188,5 @@ used to vertically center elements, may need modification if you're not using de
 .card-input-container.password::after {
   content: "\f023";
 }
+
+/* header */
