@@ -51,7 +51,7 @@
         bagus = '$bagus', 
         tanggal = '$tanggal' WHERE idmasuk='$idm' ");
         if($update_data){
-            header('location:masuk.php');
+            header('location:index.php');
         } else{
             $message = 'Update Data Gagal Gagal';
             echo "<script type='text/javascript'>alert('$message');</script>";
